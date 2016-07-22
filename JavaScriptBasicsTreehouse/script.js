@@ -1,4 +1,4 @@
-var message = "Hello!";
-alert(message);
-document.write("<h1>This is cool!</h1>");
-console.log("program complete!");
+var stringToShout = prompt("What should I shout?");
+var shout = stringToShout.toUpperCase();
+shout += "!!!"
+alert(shout);
