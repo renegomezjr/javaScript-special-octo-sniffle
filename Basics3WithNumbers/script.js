@@ -1,0 +1,10 @@
+var secondsPerMin = 60;
+var minsPerHour = 60;
+var hoursPerDay = 24;
+var daysPerWeek = 7;
+var weeksPerYear = 52;
+var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
+var secondsPerYear = secondsPerDay * daysPerWeek * weeksPerYear;
+document.write("<h2>There are " + secondsPerDay + " seconds in a day.</h2>");
+var yearsAlive = 37;
+document.write("<h2>I have been alive for " + secondsPerYear * yearsAlive  + " seconds.</h2>");
