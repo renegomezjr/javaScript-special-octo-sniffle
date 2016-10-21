@@ -6,7 +6,8 @@
 
 */
 function print(message) {
-  document.write(message);
+    var printToDiv = document.getElementById('output');
+    printToDiv.innerHTML = message;
 }
 
 var message = '';
