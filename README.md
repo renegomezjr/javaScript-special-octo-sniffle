@@ -1,2 +1,2 @@
-#Repo for JavaScript basics.
+#Repo for JavaScript projects.
 ##Using Brackets and Treehouse
