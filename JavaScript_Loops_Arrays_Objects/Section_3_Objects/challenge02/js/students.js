@@ -30,3 +30,17 @@ var students = [
     points: '350'
   }
 ];
+function print(message) {
+  var div = document.getElementById('output');
+  div.innerHTML = message;
+};
+var message = '<ol>';
+for(var student in students){
+    message += '<li>';
+    for(var prop in students[student]){
+        message += '<p>' + prop + ': '+ students[student][prop] +'</p>';   
+    };
+    message += '</li>';
+};
+message += '</ol>';
+print(message);
